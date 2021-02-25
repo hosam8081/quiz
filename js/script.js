@@ -332,7 +332,7 @@ var api = [
         "answer_3": "nation",
         "answer_4": "none of above",
         "right":"answer_1",
-        "right_answer": "political"
+        "right_answer": "political geography"
     },
     {
         "title": "A state is a political unit with",
@@ -367,8 +367,8 @@ var api = [
         "answer_2": "buffer state",
         "answer_3": "staellite state",
         "answer_4": "all of above",
-        "right":"answer_2",
-        "right_answer": "buffer state"
+        "right":"answer_3",
+        "right_answer": "staellite state"
     },
     
 
@@ -454,7 +454,6 @@ var api = [
         "right":"answer_1",
         "right_answer": "1"
     },
-
 ]
 
 var questionArea = document.querySelector('#que');
