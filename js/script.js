@@ -452,7 +452,7 @@ var api = [
         "answer_3": "order/payment",
         "answer_4": "a, b",
         "right":"answer_1",
-        "right_answer": "1"
+        "right_answer": "information/service"
     },
 ]
 
@@ -464,6 +464,7 @@ var score = 0;
 document.addEventListener('DOMContentLoaded', function(){
     showdata()
 })
+
 
 function showdata() {
 
@@ -515,7 +516,9 @@ document.addEventListener('click', function(e){
                 } else {
 
                     document.querySelector(`#${api[current].right}`).parentElement.classList.add("right-answer");
-                    console.log(ele.parentElement.classList.add("warning-answer"))
+                    ele.parentElement.classList.add("warning-answer");
+
+                    console.log(current)
                 }
             }
         })
